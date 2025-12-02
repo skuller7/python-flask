@@ -36,3 +36,29 @@ def article3():
         title='My Third Article',
         content="Thank you for reading! this is my third article"
     )
+
+# app.route('/',defaults={ "path":"" })
+# app.route('/<path:path>')
+# def handle_request(path):
+#     if path == 'article1':
+#         return render_template(
+#             'article.html',
+#             title='My First Article',
+#             content="Thank you for reading! this is my first article"
+#         )
+#     elif path == 'article2':
+#         return render_template(
+#             'article.html',
+#             title='My Second Article',
+#             content="Thank you for reading! this is my second article"
+#         )
+#     elif path == 'article3':
+#         return render_template(
+#             'article.html',
+#             title='My Third Article',
+#             content="Thank you for reading! this is my third article"
+#         )
+#     else:
+#         return "Nope that is not a route"
+#     print(f'I got an request on path: {path}')
+#     return "Thank you for the request"
