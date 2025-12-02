@@ -34,7 +34,7 @@ def article3():
     return render_template(
         'article.html',
         title='My Third Article',
-        content="Thank you for reading! this is my third article"
+        content="Thank you for reading! this is my Third article!"
     )
 
 # app.route('/',defaults={ "path":"" })
