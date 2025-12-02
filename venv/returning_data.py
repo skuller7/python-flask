@@ -26,7 +26,7 @@ def article2():
     return render_template(
         'article.html',
         title='My Second Article',
-        content="Thank you for reading! this is my second article"
+        content="Thank you for not reading! this is my second article"
     )
 
 @app.route('/article3')
